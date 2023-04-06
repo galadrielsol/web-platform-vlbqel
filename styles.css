@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: pink;
+  background-color: navy;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  border-bottom: solid 1px #000;
+  background-color: lightcoral;
+}
+
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: solid 1px #fff;
+  text-align: center;
+  text-decoration: none;
+  color: lightskyblue;
+}
+
+nav a[aria-current='page'] {
+  color: cyan;
+  background-color: darkmagenta;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.9rem;
+  font-family: fantasy;
+  color: aqua;
+}
+
+.Uno{
+  color: coral;
+ background-color: #000;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: small;
+}
+
+.Dos{
+  color: coral;
+ background-color: rgb(209, 0, 0);
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: medium;
+}
+
+.Tres{
+  color: darkorchid;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+}
